@@ -15,7 +15,7 @@ chsh -s $(which zsh)
 ## Installed steps
 - [Homebrew](https://brew.sh/)
 ###### Homebrew:
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#homebrew) 
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) 
 - [fzf](https://github.com/junegunn/fzf)
 - [thefuck](https://github.com/nvbn/thefuck)
 - [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
