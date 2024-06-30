@@ -8,8 +8,11 @@ sudo apt install zsh
 brew install zsh
 ```
 
-
-## installation steps
+Set zsh as default shell 
+```bash
+chsh -s $(which zsh)
+```
+## Installed steps
 - [Homebrew](https://brew.sh/)
 ###### Homebrew:
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#homebrew) 
