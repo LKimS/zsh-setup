@@ -14,7 +14,7 @@ chsh -s $(which zsh)
 ```
 ## Installed steps
 - [Homebrew](https://brew.sh/)
-###### Homebrew:
+###### Homebrew: (remember to read instructions after installations)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) 
 - [fzf](https://github.com/junegunn/fzf)
 - [thefuck](https://github.com/nvbn/thefuck)
