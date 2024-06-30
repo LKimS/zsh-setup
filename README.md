@@ -9,7 +9,7 @@ brew install zsh
 ```
 
 
-## Installed steps
+## installation steps
 - [Homebrew](https://brew.sh/)
 ###### Homebrew:
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#homebrew) 
