@@ -44,3 +44,4 @@ chsh -s $(which zsh)
 
 ### Other
 - [Anaconda](https://www.anaconda.com/)
+- [lvim](https://www.lunarvim.org/)
