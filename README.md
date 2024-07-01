@@ -20,6 +20,7 @@ chsh -s $(which zsh)
 - [thefuck](https://github.com/nvbn/thefuck)
 - [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/tree/master)
+- [tldr](https://github.com/tldr-pages/tlrc)
 
 ### Handy alias configs
 ```sh
