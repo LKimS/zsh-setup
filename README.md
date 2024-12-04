@@ -22,6 +22,7 @@ chsh -s $(which zsh)
 - [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/tree/master)
 - [tldr](https://github.com/tldr-pages/tlrc)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
 
 ### Handy alias configs
 ```sh
