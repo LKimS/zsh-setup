@@ -47,3 +47,4 @@ chsh -s $(which zsh)
 ### Other
 - [Anaconda](https://www.anaconda.com/)
 - [lvim](https://www.lunarvim.org/)
+- [bat](https://github.com/sharkdp/bat)
