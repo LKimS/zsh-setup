@@ -23,6 +23,14 @@ unset __conda_setup
 # Homebrew setup
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
+# --- Powerlevel10k ---
+source /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Copy from here
+
 # fzf setup
 eval "$(fzf --zsh)"
 
@@ -34,11 +42,13 @@ autoload -U compinit; compinit
 _comp_options+=(globdots) # With hidden files
 
 # --- Auto suggestions ---
-source /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # --- syntax highliting ---
-#
-source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# --- zoxide ---
+eval "$(zoxide init zsh)"
 
 # enable color support of ls and also add handy aliases
   if [ -x /usr/bin/dircolors ]; then
@@ -56,8 +66,3 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
     alias la='ls -A'
     alias l='ls -CF'
 
-# --- Powerlevel10k ---
-source /home/linuxbrew/.linuxbrew/share/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
